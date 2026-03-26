@@ -1,1 +1,1 @@
-{"version":2,"defects":[],"times":{"Tests\\Unit\\EnvTest::testExample":0.004}}
+{"version":2,"defects":[],"times":{"Tests\\Unit\\EnvTest::testExample":0.002,"Tests\\EnvTest::testExample":0.002}}
