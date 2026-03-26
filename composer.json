@@ -1,0 +1,33 @@
+{
+    "name": "vansbeck07/dir-dot-config",
+    "description": "Retrieve configuration from files in configuration directory.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evans Owusu Ofori",
+            "email": "vansbeck07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.3",
+        "vansbeck07/array-utils": "^0.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Vansbeck07\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
